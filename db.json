@@ -1,39 +1,98 @@
 {
-  "projects": [
+  "recipes": [
     {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    },
-    {
-      "title": "Project 3",
-      "description": "Testing",
-      "userId": 1,
+      "title": "Quick Rice and Beans Stir-Fry",
+      "description": "A simple and quick stir-fry dish featuring rice and beans, perfect for a speedy and satisfying meal.",
+      "preparationTime": "15 minutes",
+      "difficultyLevel": "easy",
+      "ingredients": [
+        "1 cup cooked rice (can use leftover rice)",
+        "1/2 cup canned beans (any type, drained and rinsed)",
+        "1 tablespoon olive oil",
+        "1 clove garlic, minced",
+        "1/4 cup chopped onion (optional)",
+        "Salt and pepper to taste",
+        "Soy sauce or hot sauce (optional, for extra flavor)"
+      ],
+      "instructions": [
+        "1. Heat the olive oil in a large skillet over medium heat.",
+        "2. Add the minced garlic and chopped onion (if using) to the skillet and sauté for 2-3 minutes until fragrant and the onion is translucent.",
+        "3. Add the cooked rice and beans to the skillet, stirring to combine with the garlic and onion.",
+        "4. Cook for another 5-7 minutes, stirring occasionally, until the rice and beans are heated through.",
+        "5. Season with salt and pepper to taste. Add soy sauce or hot sauce if desired for extra flavor.",
+        "6. Serve hot and enjoy your quick and easy meal!"
+      ],
+      "servingSize": "1 serving",
+      "tips": "You can add any leftover vegetables you have on hand to this stir-fry for extra nutrition and flavor. If you don't have cooked rice, you can use microwaveable rice to save time.",
+      "query": "stir-fry",
+      "image": "https://images.unsplash.com/photo-1599297915779-0dadbd376d49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1ODg4MjZ8MHwxfHNlYXJjaHwyfHxzdGlyLWZyeXxlbnwwfHx8fDE3MjE5Mzc4MDh8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "reviews": [],
       "id": 3
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
     },
     {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "title": "Quick Mexican Kale and Bean Tacos",
+      "description": "A fast and easy Mexican-inspired dish featuring sautéed kale and beans, perfect for a quick and nutritious meal.",
+      "preparationTime": "15 minutes",
+      "difficultyLevel": "easy",
+      "dietaryOptions": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "ingredients": [
+        "1 cup kale (chopped)",
+        "1/2 cup beans (any type, cooked)",
+        "1/4 cup salsa (store-bought or homemade)",
+        "2 small corn tortillas",
+        "1/4 cup shredded cheese (optional)",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste",
+        "Lime wedges (optional)"
+      ],
+      "instructions": [
+        "1. Heat the olive oil in a pan over medium heat.",
+        "2. Add the chopped kale to the pan and sauté for 3-4 minutes until it starts to wilt.",
+        "3. Add the cooked beans to the pan and stir to combine with the kale. Cook for another 2-3 minutes until heated through.",
+        "4. Season with salt and pepper to taste.",
+        "5. Warm the corn tortillas in a separate pan or microwave for about 30 seconds.",
+        "6. Fill each tortilla with the kale and bean mixture.",
+        "7. Top with salsa and shredded cheese (if using).",
+        "8. Serve immediately with lime wedges on the side (optional)."
+      ],
+      "servingSize": "1 serving",
+      "tips": "For a vegan option, omit the cheese or use a dairy-free alternative. You can also add avocado slices or a dollop of guacamole for extra flavor.",
+      "query": "tacos",
+      "image": "https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1ODg4MjZ8MHwxfHNlYXJjaHwyfHx0YWNvc3xlbnwwfHx8fDE3MjE5OTc3Mjd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "reviews": [],
+      "id": 4
     },
     {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "title": "Quick Garlic Butter Shrimp and Fish",
+      "description": "A simple and delicious seafood dish featuring shrimp and fish, cooked in a flavorful garlic butter sauce. Perfect for a quick and satisfying meal.",
+      "preparationTime": "15 minutes",
+      "difficultyLevel": "easy",
+      "ingredients": [
+        "fish fillet (user's inventory)",
+        "shrimp (user's inventory)",
+        "2 tablespoons butter",
+        "2 cloves garlic, minced",
+        "1 tablespoon lemon juice",
+        "Salt and pepper to taste",
+        "Optional: fresh parsley for garnish"
+      ],
+      "instructions": [
+        "1. Heat a large skillet over medium heat and add the butter.",
+        "2. Once the butter is melted, add the minced garlic and sauté for about 1 minute until fragrant.",
+        "3. Add the fish fillet and shrimp to the skillet. Cook for 2-3 minutes on each side until the fish is opaque and the shrimp are pink and cooked through.",
+        "4. Season with salt and pepper to taste.",
+        "5. Drizzle with lemon juice and garnish with fresh parsley if desired.",
+        "6. Serve immediately."
+      ],
+      "servingSize": "1 guest",
+      "tips": "For a quicker preparation, you can use pre-minced garlic. Serve with a side salad or steamed vegetables for a complete meal.",
+      "query": "seafood",
+      "image": "https://images.unsplash.com/photo-1448043552756-e747b7a2b2b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1ODg4MjZ8MHwxfHNlYXJjaHwyfHxzZWFmb29kfGVufDB8fHx8MTcyMTk5Nzc1N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "reviews": [],
+      "id": 5
     }
   ]
 }
